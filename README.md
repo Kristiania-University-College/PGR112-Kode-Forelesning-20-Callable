@@ -1,5 +1,4 @@
-# Forelesning 19 - JDBC Optional, auto-increment, transactions
-
+# Forelesning 20 - JDBC Callable stored procedures
 > Forelesningskoden finner du i `src/main/java/lecture`-mappen.
 > 
 > SQL-koden finner du i db-skript `files/brettspill.sql`-filen. 
