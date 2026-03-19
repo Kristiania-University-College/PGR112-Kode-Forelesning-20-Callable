@@ -19,7 +19,7 @@ public class Program {
 
 
     void useOptional(BoardgameDao bgDao, int i) throws SQLException {
-        Optional<BoardGame> bg = bgDao.getBoardGame(5);
+        Optional<BoardGame> bg = bgDao.getBoardGame(i);
         bg.ifPresent(boardGame -> IO.println(boardGame.name()));
     }
 
